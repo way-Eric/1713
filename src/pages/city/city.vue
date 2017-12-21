@@ -1,6 +1,7 @@
 <template>
   <div id="city">
     <index-header/>
+    aaaad ddd
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 import header from "./components/header.vue" ;
 export default {
   components: {
-    "index-header" : header 
+    "index-header" : header
   }
 
 }

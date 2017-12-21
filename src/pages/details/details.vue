@@ -1,6 +1,6 @@
 <template>
 <div class="mp-page" id="main-page">
-    <transition name="fade"> 
+    <transition name="fade">
         <div class="mp-header" v-show="show" ref="top">
             <router-link to="/" mp-role="left" class="mp-header-left iconfont icon-back">
             </router-link>
@@ -13,7 +13,7 @@
                 <img class="mp-headfigure-img" src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg" alt="故宫">
             </div>
             <div class="mp-headfeagure-info">
-                <div class="mp-headfeagure-title">
+                <div class="mp-headfeagure">
                     故宫(AAAAA景区)
                 </div>
                 <div class="mp-imgswipeicon">
@@ -87,7 +87,7 @@
                                         {{item.form}}
                                     </span>
                                 </ul>
-                            </div>                           
+                            </div>
                         </div>
                         <div class="mp-ticket-side mp-flexbox-layout mp-border-left">
                             <a href="/touch/order/form.htm?pid=3676234718&amp;priceId=3319191727&amp;classify=1&amp;supplierId=15363&amp;isTuan=false&amp;sid=38170&amp;tuanId=&amp;cat=from_area%3Dts_hot_recommend%26from_index%3D0%26from_value%3D%25E6%2595%2585%25E5%25AE%25AB%26dist_city%3D%25E5%258C%2597%25E4%25BA%25AC%26pIndex%3D2" data-pid="3676234718" data-type="ticket" data-inactivity="false" data-redid="" data-hasmob="" data-suppliertype="3" data-supplierid="15363" data-suppliername="北京直营" data-teamtype="0" class="mp-ticket-link" mp-role="TicketLink" title="故宫门票">
@@ -162,10 +162,10 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
     <div class="qu_footer" id="qunarFooter">
         <div class="main_nav_wrapper">
-            <ul class="main_nav" id="qunarFooterUL"> 
+            <ul class="main_nav" id="qunarFooterUL">
                 <li>
                     <a href="//touch.qunar.com/h5/flight/">
                         <div class="nav-icon" style="background-position: 0 0;"></div>
@@ -184,7 +184,7 @@
                         <span class="title">公寓</span>
                     </a>
                 </li>
-                
+
                 <li>
                     <span class="tag">更多</span>
                 </li>
@@ -223,9 +223,9 @@
     <a class="mp-header-back mpg-iconfont" href="" v-show="show2">
         <span class="mp-headerback-bg"></span>
         <span class="iconfont  icon-back"></span>
-    </a> 
+    </a>
 </div>
-   
+
 </template>
 
 <script>
@@ -284,7 +284,7 @@ export default {
     }
   }
 }
-    
+
 </script>
 
 
@@ -310,7 +310,7 @@ export default {
     width: .8rem;
     height: .88rem;
     line-height: .88rem;
-    
+
 }
 .mp-header-left, .mp-header-back {
     position: absolute;
