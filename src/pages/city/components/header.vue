@@ -4,15 +4,15 @@
       <router-link to="/" class="head-left iconfont icon-back"></router-link>
       <div class="area">
         <ul>
-          <li @click="handleLeftChange" ref="li1">国内app</li>
-          <li @click="handleRightChange" ref="li2">海外app</li>
+          <li @click="handleLeftChange" ref="li1">国内</li>
+          <li @click="handleRightChange" ref="li2">海外</li>
         </ul>
       </div>
     </div>
     <div id="main">
       <div class="Ipt">
         <input type="text" placeholder="请输入城市名或拼音" />
-      </div>
+      </div>     
     </div>
     <city-domestic v-if="show" :domestic="domestic"/>
     <city-abroad v-if="show2" :abroad="abroad"/>
@@ -23,7 +23,7 @@
   import domestic from "./domestic.vue";
   import abroad from "./abroad.vue";
   import axios from "axios" ;
-  import { AJAX_GET_DATA } from "../types.js"
+  import { AJAX_GET_DATA } from "../types.js" 
   export default {
     data() {
       return {
@@ -76,7 +76,7 @@
     height:1.6rem;
   }
 
-  .head {
+  .head { 
     display: flex;
     position: fixed;
     top:0;
@@ -86,8 +86,8 @@
     width: 100%;
     height: .88rem;
     text-align: center;
-    color: #fff;
-    background: #00bcd4;
+    color: #fff; 
+    background: #00bcd4;  
   }
   .head-left {
     width: .4rem;

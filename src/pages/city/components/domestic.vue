@@ -8,13 +8,13 @@
           </div>
         </div>
       </div>
-      <h2>热门a城市</h2>
-      <div class="content">
+      <h2>热门城市</h2>
+      <div class="content">   
         <div class="hot-city">
           <div class="little" v-for="item in domestic.items" key="index">
            <router-link to="/">
               <li class="item-con" @click="handleItemClick(item)">{{item}}
-              </li>
+              </li> 
            </router-link>
           </div>
         </div>
@@ -51,7 +51,7 @@
     padding-right: .5rem;
     padding-left: .2rem;
     background: #fff;
-    border-top: 2px solid #c9cccd;
+    border-top: 1px solid #c9cccd;
     border-bottom: 1px solid #c9cccd;
   }
 
@@ -114,7 +114,7 @@
     color: #212121;
     border-bottom: 1px solid #c9cccd;
   }
-
+  
   .grapheme {
     position: fixed;
     right: 0;

@@ -4,7 +4,7 @@
     <index-banner/>
     <index-entertain/>
     <index-middle/>
-    <index-main/>aaa
+    <index-main/>
   </div>
 </template>
 
